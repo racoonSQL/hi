@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="vi" class="no-js">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>hi</title>
+		<link class="rose" rel="shortcut icon" href="">
+		<link rel="stylesheet" type="text/css" href="./style.css">
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<script>document.documentElement.className = "js";
+
+var supportsCssVars = function supportsCssVars() {
+  var e,
+      t = document.createElement("style");
+  return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e;
+};
+
+supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+	</head>
+
+	<body class="demo-1 loading" id="body">
+		<div id="main">
+			<div class="message">Mở trang web này trên máy tính để thấy đẹp hơn nhé.</div>
+			<div class="frame">
+			</div>
+			<div class="content">
+				<div class="grid">
+					<div class="grid__item pos-2"><div class="grid__item-img" style="background-image:url(./img/2.jpg);" class="hover" ></div></div>
+					<div class="grid__item pos-3"><div class="grid__item-img" style="background-image:url(./img/7.jpg);" class="hover"></div></div>
+					<div class="grid__item pos-4"><div class="grid__item-img" style="background-image:url(./img/9.jpg);" class="hover"></div></div>
+					<div class="grid__item pos-1"><div class="grid__item-img" style="background-image:url(./img/1.jpg);" class="hover"></div></div>
+					<div class="grid__item pos-5"><div class="grid__item-img" style="background-image:url(./img/5.jpg);" class="hover"></div></div>
+					<div class="grid__item pos-6"><div class="grid__item-img" style="background-image:url(./img/6.jpg);" class="hover"></div></div>
+					<div class="grid__item pos-7"><div class="grid__item-img" style="background-image:url(./img/3.jpg);" class="hover"></div></div>
+					<div class="grid__item pos-8"><div class="grid__item-img" style="background-image:url(./img/8.jpg);" class="hover"></div></div>
+					<div class="grid__item pos-9"><div class="grid__item-img" style="background-image:url(./img/10.jpg);" class="hover"></div></div>
+					<div class="grid__item pos-10"><div class="grid__item-img" style="background-image:url(./img/4.jpg);" class="hover"></div></div>
+				</div>
+                <h2 class="content__title no-select">
+					<span>For you</span>
+				</h2>
+				<h2 class="content__title no-select">
+					<span class="content__title-sub">Chúc em có một ngày 8/3 thật ý nghĩa</span>
+				</h2>
+			</div>
+		</div>
+        <svg class="cursor" width="80" height="80" viewBox="0 0 80 80">
+			<circle class="cursor__inner" cx="40" cy="40" r="20"></circle>
+		</svg>
+		<div class="bg">
+			<div class="leftbg">
+				<img class="l1" src="./img/l1.jpg" alt="">
+			</div>
+			<div class="rightbg">
+				<img class="r1" src="./img/r1.jpg" alt="">
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="wrap">
+				<div class="box">
+					<div class="box-body" id="box-body">
+						<div class="box-lid">
+							
+							<div class="box-bowtie"></div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+
+		<audio loop id="play">
+			<source src="ndtL.mp3">
+		</audio>
+		<script src="./script.js"></script>
+	</body>
+	<!-- <embed with="0" height="0" src="ndtL.mp3" autostart="true" loop="true"> -->
+</html>
